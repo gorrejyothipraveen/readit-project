@@ -21,4 +21,10 @@ jobs:
         uses: gradle/actions/setup-gradle@v4
 
       - name: Build Project
-        run: ./gradlew test
+        run: ./gradlew build
+
+      - name: Upload JAR
+        uses: actions/upload-artifact@v4
+        with:
+          name: readit-project-jar
+          path: build/libs/*.jar
