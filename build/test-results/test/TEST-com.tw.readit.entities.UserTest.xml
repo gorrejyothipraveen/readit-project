@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tw.readit.entities.UserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-06-28T17:21:21.856Z" hostname="Jyothis-MacBook-Pro.local" time="0.012">
+  <properties/>
+  <testcase name="getSameResponse()" classname="com.tw.readit.entities.UserTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
