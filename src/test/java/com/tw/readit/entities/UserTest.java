@@ -10,6 +10,6 @@ class UserTest {
     void getSameResponse() {
         User user = new User();
         String response = user.getSameResponse("hello");
-        assertEquals("hello", response);
+        assertEquals("hello", response + "world");
     }
 }
