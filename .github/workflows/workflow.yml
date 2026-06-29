@@ -33,3 +33,16 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
 
       - run: ./gradlew test
+
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: readit-project-jar
+
+      - name: Verify Artifact
+        run: ls -R
