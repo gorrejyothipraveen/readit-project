@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.tw.readit.entities.UserTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2026-06-28T18:08:32.050Z" hostname="Jyothis-MacBook-Pro.local" time="0.016">
+<testsuite name="com.tw.readit.entities.UserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-06-30T06:28:54.479Z" hostname="Jyothis-MacBook-Pro.local" time="0.01">
   <properties/>
-  <testcase name="getSameResponse()" classname="com.tw.readit.entities.UserTest" time="0.011">
-    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;hello&gt; but was: &lt;helloworld&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;hello&gt; but was: &lt;helloworld&gt;
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:158)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:139)
-	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:201)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1188)
-	at com.tw.readit.entities.UserTest.getSameResponse(UserTest.java:13)
-</failure>
-  </testcase>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="getSameResponse()" classname="com.tw.readit.entities.UserTest" time="0.007"/>
+  <system-out><![CDATA[small modification... happened
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
